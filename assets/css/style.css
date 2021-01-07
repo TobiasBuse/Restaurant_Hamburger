@@ -1,0 +1,156 @@
+body {
+    background: lightgrey;
+    color: grey;
+}
+
+
+/* .font-color {
+    color: yellow;
+    background: grey;
+}
+
+
+.font-color2 {
+    color: black;
+    background: white;
+} */
+
+
+section:nth-of-type(1) img {
+    margin-left: 97%;
+    margin-top: 1.5%;
+    position: fixed;
+}
+
+.imghamburger {
+    height: 10vh;
+}
+
+.imgrestaurant {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.center {
+    text-align: center; 
+}
+
+
+
+/* Code für Hamburger Menu */
+
+.hamburger input {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    opacity: 0;
+}
+
+
+.hamburger div{
+    z-index: 1;
+    opacity: 1;
+    position: fixed;
+    top: 12px;
+    right: 18px;
+    font-size: 3em;
+    color: #fff;
+}
+
+
+.x {
+    position: fixed;
+    color: #fff;
+    font-size: 2rem;
+    top: 28px;
+    right: 26px;
+    display: none;
+}
+
+
+.small-menu {
+    position: fixed;
+    right: -60%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 50%;
+    height: 100vh;
+    transition: right 1s;
+}
+
+
+.small-menu a {
+    margin: 18vh 5% 0;
+    display: block;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 4rem;
+}
+
+
+.small-menu li {
+    list-style: none;
+}
+
+
+.hamburger input:checked~.small-menu {
+    right: -26px;
+}
+
+
+.hamburger input:checked~div {
+    display: none;
+}
+
+
+.hamburger input:checked~.x {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* .applicationinfo {
+    color: red;
+
+}
+
+
+
+.requirementsinfo {
+    color: blue;
+
+} */
+
+
+.hide {
+    display: none;
+}
+
+
+.threebuttons {
+    margin-left: 80%;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+} 
+
+
+.margintop {
+    margin-top: 4%;
